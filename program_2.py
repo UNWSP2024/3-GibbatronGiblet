@@ -3,12 +3,24 @@
 # If the person is 1 year old or less, it should display "infant" (without quotes).
 # If the person is older than 1 year, but younger than 13 years, it should display "child".
 # If the person is at least 13 years old, but less than 20 years old, it should display "teenager".
-# If the person is at least 20 year old, it should display "adult".
+# If the person is at least 20 years old, it should display "adult".
 
 def categorize_age(age):
     ageCategory = "TBD"
     ######################
-    # WRITE YOUR CODE HERE
+    if age >= 20:
+        ageCategory = "adult"
+    elif age < 20 and age >= 13:
+        ageCategory = "teenager"
+    elif age < 13 and age > 1:
+        ageCategory = "child"
+    elif age <= 1 and age >= 0:
+        ageCategory = "infant"
+    else:
+        ageCategory = "Invalid Age"
+    #This program was written by Logan Gibson on 9/17/2025
+    #Its name is "Age Categorizer"
+
     ######################
 
 
