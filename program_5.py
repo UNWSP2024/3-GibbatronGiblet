@@ -48,5 +48,5 @@ print("Your subtotal is $" + f'{subtotal:.2f}')
 print("Your sales tax is $" + f'{sales_tax:.2f}')
 print("Your total is $" + f'{total_cost:.2f}')
 
-# Written by Logan Gibson on 9/10/25
-# This program is titled "Celsius to Fahrenheit Conversion"
+# Written by Logan Gibson on 9/18/25
+# This program is titled "Hot Dog Order"

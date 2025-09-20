@@ -24,7 +24,6 @@ def weight_conversion(weight):
     else:
         print("Invalid weight.")
 
-        shippingCost = 1.5
     # This program was written by Logan Gibson on 9/18/2025
     # Its name is "Shipping Cost Calculator"
 
